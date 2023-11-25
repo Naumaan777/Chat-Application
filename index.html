@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width , initial-scale = 1.0 ">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>ANHA-chat app -Realtime Node Socket.io </title>
+
+<!--    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+	<script defer src="js/client.js"> </script>   -->
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">   
+	<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,700&family=Gemunu+Libre:wght@800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav>
+		<img class="logo" src="logo3.jpg" alt="error">
+		<h3> Welcome to ANHA Chat App </h3>
+		
+	</nav>
+
+	<div class="container">
+		<div class="users-window">
+			<div class="usershead">
+				<h2>People</h2>
+				<h1> 3 </h1>
+	
+			</div>
+			<div class="users-list">
+			<!--	<p>Alen</p>
+				<p>Arina</p>
+				<p>Marcos</p>   -->
+			</div>
+		</div>
+		
+
+		<div class="users-chat">   <!-- container name changed to user-chat -->
+		<!--	<div class="message left"> Alen: How are You? </div>
+			<div class="message right"> Tina : I'm Fine and You? </div>  --> 
+		</div>			
+	</div>
+		<div class="send">
+			<form action="#" id="send-container"> 
+				<input type="text" name="messageInp" id="messageInp" placeholder= "Type your message..."> </input>
+				<button class="btn" type="submit">SEND </button>
+			</form>
+		</div>
+		
+	<script src="http://localhost:8000/socket.io/socket.io.js"></script>
+	<script src="js/client.js"> </script>
+</body>
+
+</html>
