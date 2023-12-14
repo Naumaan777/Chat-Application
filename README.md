@@ -7,7 +7,7 @@ Including some feature help to improve chat such as Full Privacy &amp; security 
 
 This application is a real-time communication platform built on Node.js. It provides an interactive and dynamic environment for users to send and receive messages instantly. 
 
- ! Breakdown:
+ - Breakdown:
 
 * Node.js: Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside the browser1. It allows you to use JavaScript as both a front-end and back-end language1, making it an ideal choice for developing a chat application.
 
